@@ -1,0 +1,10 @@
+.redbox {
+  height: 40rem;
+  width: 10rem;
+  background-color: #c6538c;
+}
+.redbox .bluebox {
+  height: 20rem;
+  width: 20rem;
+  background-color: blue;
+}
