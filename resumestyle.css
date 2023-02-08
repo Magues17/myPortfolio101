@@ -1,0 +1,340 @@
+body {
+  display: grid;
+  grid-template-columns: 39% 115%;
+  grid-template-rows: 31% 17% 26% 26% 26% 26%;
+  width: 50rem;
+  /* Add some dimension and color for us to see it better */
+  height: 50rem;
+}
+
+.contact {
+  grid-column: 1/2;
+  grid-row: 3/6;
+  padding: 20%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 8px;
+}
+
+.whiteLine {
+  height: 1px;
+  border: 0;
+  background: rgb(255, 255, 255);
+  margin-top: 5%;
+}
+
+.phoneLocationEmail {
+  padding: 20%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  grid-column: 1/2;
+  grid-row: 4/6;
+}
+
+.imgTwo {
+  background-image: url(/Resume/whitephone.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  -o-object-position: 100%;
+     object-position: 100%;
+  width: 41%;
+  height: 5rem;
+  margin: -148px 5px 5px 23px;
+  padding: 5px 5px 5px 5px;
+}
+
+.imgThree {
+  background-image: url(/Resume/location.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-position: 100%;
+     object-position: 100%;
+  width: 21px;
+  height: 29px;
+  margin: 1px 5px 5px 51px;
+  padding: 5px 5px 5px 5px;
+}
+
+.imgFour {
+  background-image: url(/Resume/whitemail.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  grid-column: 1/2;
+  grid-row: 5/6;
+  -o-object-position: 100%;
+     object-position: 100%;
+  width: 74%;
+  height: 25px;
+  margin: -27px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+.emailWebsite {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  margin-top: 6%;
+  text-align: center;
+  margin-right: 19%;
+}
+
+.imgFive {
+  background-image: url(/Resume/linkedin.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 1/2;
+  grid-row: 5/6;
+  -o-object-position: 100%;
+     object-position: 100%;
+  width: 28px;
+  height: 28px;
+  margin: 106px 7px 6px 108px;
+  padding: 5px 5px 5px 5px;
+}
+
+.imgOne {
+  grid-column: 1/2;
+  grid-row: 1/5;
+  background-image: url("/Resume/IMG_0158.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-position: 100%;
+     object-position: 100%;
+  width: 69%;
+  height: 12rem;
+  margin-left: 10%;
+  margin-top: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.titleText {
+  grid-column: 2/2;
+  grid-row: 1/5;
+  grid-area: auto;
+  font-size: 60pt;
+  display: flex;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+  -webkit-text-size-adjust: 70pt;
+     -moz-text-size-adjust: 70pt;
+          text-size-adjust: 70pt;
+  margin: 2pt 5pt;
+  padding: 2pt 5pt;
+  align-items: center;
+  color: rgb(163, 8, 57);
+}
+
+.line-One {
+  grid-column: 2/2;
+  grid-row: 2/5;
+  height: 5px;
+  background: linear-gradient(to top, transparent 2px, black 2px, black 3px, transparent 3px);
+}
+
+.line-Two {
+  grid-column: 2/2;
+  grid-row: 3/5;
+  height: 5px;
+  margin-right: 10%;
+  margin-top: 1%;
+  background: linear-gradient(to bottom, transparent 2px, black 2px, black 3px, transparent 3px);
+}
+
+.line-Three {
+  grid-column: 2/2;
+  grid-row: 4/5;
+  height: 5px;
+  margin-right: 10%;
+  margin-top: 4%;
+  background: linear-gradient(to bottom, transparent 2px, black 2px, black 3px, transparent 3px);
+}
+
+.line-Four {
+  grid-column: 2/2;
+  grid-row: 6/6;
+  height: 5px;
+  margin-right: 10%;
+  margin-top: 0%;
+  background: linear-gradient(to bottom, transparent 2px, black 2px, black 3px, transparent 3px);
+}
+
+.summary {
+  grid-column: 2/2;
+  grid-row: 2/5;
+  font-size: 17px;
+  font-weight: 200;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.jobTitle {
+  grid-column: 1/2;
+  grid-row: 2/5;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20pt;
+  text-align: left;
+  padding-left: 20%;
+  padding-top: 5%;
+  color: rgb(163, 8, 57);
+}
+
+.blackbox {
+  grid-column: 1/2;
+  grid-row: 3/5;
+  height: 60rem;
+  width: 17rem;
+  background-color: rgba(32, 2, 3, 0.9);
+}
+
+.expertise {
+  grid-column: 2/2;
+  grid-row: 3/5;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20pt;
+  text-align: left;
+  padding-top: 1%;
+  color: rgb(163, 8, 57);
+  letter-spacing: 12px;
+  text-transform: uppercase;
+}
+
+.aoe {
+  grid-column: 2/2;
+  grid-row: 3/5;
+  padding-top: 5%;
+  font-size: 17px;
+  font-weight: 200;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+  margin-right: 11%;
+}
+
+.phoneNumber {
+  margin: -32px 5px 5px -41px;
+  padding: 7px 5px 5px 5px;
+  font-size: 15px;
+}
+
+.physicalAddress {
+  margin: 0px 5px 5px -41px;
+  padding: 5px 5px 5px 5px;
+  font-size: 15px;
+}
+
+.proHistory {
+  grid-column: 2/2;
+  grid-row: 4/5;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20pt;
+  text-align: left;
+  margin-top: -2%;
+  padding-top: 1%;
+  color: rgb(163, 8, 57);
+  letter-spacing: 12px;
+  text-transform: uppercase;
+}
+
+.poh {
+  grid-column: 2/2;
+  grid-row: 4/5;
+}
+
+.aoeTwo {
+  padding-top: 5%;
+  font-size: 17px;
+  font-weight: 200;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+  margin-right: 11%;
+}
+
+.netitle {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+}
+
+.companyTime {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-bottom: 1%;
+}
+
+.discOne {
+  margin-left: 1%;
+}
+
+.aoeThree {
+  padding-top: 1%;
+  font-size: 17px;
+  font-weight: 200;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+  margin-right: 11%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.linkin {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  color: white;
+  margin-top: 50%;
+  margin-right: 21%;
+  text-align: center;
+  font-size: 15px;
+}
+
+.eduHist {
+  grid-column: 2/2;
+  grid-row: 6/6;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20pt;
+  text-align: left;
+  margin-top: -6%;
+  padding-top: 1%;
+  color: rgb(163, 8, 57);
+  letter-spacing: 12px;
+  text-transform: uppercase;
+}
+
+.educontainer {
+  grid-column: 2/2;
+  grid-row: 6/6;
+  margin-top: 1%;
+}
+
+.eduSchool {
+  grid-column: 2/2;
+  grid-row: 6/6;
+  margin-top: 1%;
+}
+
+.eduSchoolTitle {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+}
+
+.schoolTime {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-bottom: 1%;
+}/*# sourceMappingURL=resumestyle.css.map */
