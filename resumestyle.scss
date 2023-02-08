@@ -34,7 +34,7 @@ sans-serif;
 }
 
 @mixin imgTwo {
-    background-image: url(/Resume/whitephone.png);
+    background-image: url(./whitephone.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 36px;
@@ -48,7 +48,7 @@ sans-serif;
 
 }
 @mixin imgFour {
-    background-image: url(/Resume/whitemail.png);
+    background-image: url(./whitemail.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 36px;
@@ -73,7 +73,7 @@ sans-serif;
 }
 
 @mixin imgThree {
-    background-image: url(/Resume/location.png);
+    background-image: url(./location.png);
     background-repeat: no-repeat;
     // background-position: center;
     background-size: cover;
@@ -85,7 +85,7 @@ sans-serif;
 }
 
 @mixin imgFive {
-    background-image: url(/Resume/linkedin.png);
+    background-image: url(./linkedin.png);
     background-repeat: no-repeat;
     // background-position: center;
     background-size: cover;
@@ -152,7 +152,7 @@ body {
 .imgOne {
     grid-column: 1/2;
     grid-row: 1/5;
-    background-image: url("/Resume/IMG_0158.JPG");
+    background-image: url("./IMG_0158.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     // background-position: center;

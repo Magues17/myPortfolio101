@@ -51,7 +51,6 @@ nav > a {
   padding: 10px;
   color: white;
   font-size: 17px;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -109,7 +108,6 @@ h2 {
   letter-spacing: 16px;
   font-style: italic;
   border: white solid 2px;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   display: inline-block;
   width: fit-content;
