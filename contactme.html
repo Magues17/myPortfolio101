@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactme.css">
+    <script src="contactme.js"></script>
+    <title>Contact Me</title>
+</head>
+<body>
+    <form formaction="./result.html">
+    <h1>Contact Me</h1>
+    <div>
+        <label>First Name</label><br>
+        
+        <input type="fname" class="textinput" name="name" required placeholder="FName"><br>
+    </div>
+    <div>
+      <br>
+        <label>Last Name</label><br>
+        <input type="lname" class="textinput" name="name"  required placeholder="LName"><br>
+    </div>
+    <br>
+    <label for="email">Email</label><br>
+    <input type='email' class="textinput" name="email" id="email" placeholder="Email" required minlength="5" maxlength="50" required><br>
+
+    <br>
+    <label>How did you hear about me?</label>
+    <ul class="hear">
+        <li><input type="radio" name="checkbox" id="classmate">Classmate</li>
+        <li><input type="radio" name="checkbox" id="resume">Resume Submission</li>
+        <li><input type="radio" name="checkbox" id="linkedin">LinkedIn</li>
+        <li><input type="radio" name="checkbox" id="academy">Coding Academy</li>
+    </ul>
+    <label>Do you wish to be contacted back?</label>
+    <ul>
+        <li><input type="radio" id="yes" name="back" value="yes">Yes</li>
+        <li><input type="radio" id="no" name="back" value="no">No</li>
+    </ul><br>
+    <div class="handcrafted">
+    <label> Please enter your birthday <br></label><br>
+    <input type="date" class="textinput" id="birthday" required name="birthday">
+    </div>
+    <br>
+    <label for="comments">Add your Message:</label><br>
+    <textarea name="comments" id="comments" placeholder="Insert Text Here..." minlength="20" required maxlength="500" rows="5" cols="50"></textarea>
+    <div>
+    <input type="submit" name="submit" onclick="validate()" id="submit"> </form> 
+</div>
+        <br>
+    
+ <div>
+    <form action="./index.html" method="get"> <button href="index.html"class="button" type="submit"> Portfolio </button> </form> 
+</div>
+
+</body>
+<footer>
+    <div class="expand">
+    
+    </div>   
+  </footer>
+</html>
